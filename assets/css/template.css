@@ -1,0 +1,637 @@
+* {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial","sans-serif";
+}
+.menu_nav {
+    display: flex;
+    justify-content: center;
+    height: 45px;
+    background-color: rgba(0,0,0,0.92);
+}
+.menu_options {
+    display: flex;
+    justify-content: center;
+    height: 145px;
+    background-color: rgba(232, 245, 244, 0.92);
+}
+.container {
+    display: flex;    
+    justify-content: center;
+    width: 990px;    
+}
+.menu_nav .header_menu {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;      
+}
+.menu_nav .logo,
+.menu_nav .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.menu_nav .menu {
+    flex: 1;
+}
+.logo a {
+    font-size: 18px;
+}
+.menu i {
+    font-size: 13px;
+}
+.header_menu a {
+    text-decoration: none;
+    color: #ddd;    
+}
+nav li,
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    margin-left: 18px;
+    list-style-type: none;
+    font-size: 12px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+.column {
+    flex-direction: column;
+}
+.header_submenu ul {
+    display: flex;
+}
+.header_submenu li,
+.header_submenu ul {
+    list-style-type: none;
+}
+.header_submenu li{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: 55px;  
+    padding: 20px;  
+}
+.header_submenu i {
+    display: flex;
+    justify-content: center;
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+.header_submenu span {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    text-align: center;
+}
+.menu_options .novo_submenu {
+    font-size: 10px;
+    color: rgb(230, 136, 48);    
+}
+.header_submenu a {
+    text-decoration: none;
+    color: #272729;
+}
+section {
+    display: flex;
+    justify-content: center;
+}
+section .title {
+    color: #1d1d1f;
+    margin-top: 35px;
+    font-size: 40px;
+    text-align: center;    
+}
+section .mac_otions {
+    display: flex;
+    justify-content: space-between;
+}
+.mac_options .model_13 {
+    display: flex;        
+    flex-direction: column;     
+    width: 410px;    
+}
+.mac_options .model_14_16 {
+    display: flex;      
+    flex-direction: column;  
+    width: 580px;    
+}
+.model_13 img {
+    padding-top: 40px;
+}
+.model_13 img,
+.model_14_16 img {
+    margin-bottom: 35px;
+}
+.model_13 .model_novo,
+.model_14_16 .model_novo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+    color: rgb(230, 136, 48);    
+}
+.model_13 h2,
+.model_14_16 h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    font-weight: normal;    
+}
+.model_13 h3,
+.model_14_16 h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 42px;
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    font-weight: normal;    
+}
+.model_13 span,
+.model_14_16 span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    padding-top: 15px;
+    font-size: 21px;    
+}
+.model_13 .button,
+.model_14_16 .button {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 90px;
+}
+.button .purchase {    
+    color: #fff;
+    background-color: #0071e3;
+    border-radius: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.button .most {    
+    color: #06c;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 17px;
+}
+.button .most:hover {
+    text-decoration:underline;
+}
+#info {
+    display: flex;
+    justify-content: center;
+    background-color: #fafafa;
+}
+#info .title_info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+    padding-top: 80px;
+}
+#info .info_options {
+    display: flex;
+    justify-content: space-around;       
+}
+#info .mac_13,
+#info .mac_14,
+#info .mac_16 {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.mac_13 img,
+.mac_14 img,
+.mac_16 img {
+    display: flex;
+    justify-content: center; 
+}
+.mac_16 img {
+    padding-top: 7px;
+}
+.mac_14 img {
+    padding-top: 1px;
+}
+.mac_13 img {
+    display: flex;
+    justify-content: center;
+}
+.info_options .circle {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px; 
+    padding-bottom: 40px;       
+}
+.circle .dark {
+    color: #aaa;
+    margin-right: 10px;
+}    
+.circle .clear {
+    color: #ccc;    
+}
+.info_options .mac_new {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(230, 136, 48);
+    padding-bottom: 10px;
+}
+.info_options h3 {    
+    text-align: center;
+    font-size: 26px;
+    font-weight: normal;
+    margin: 0;
+}
+.info_options .value {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 18px;
+}
+.info_options .button {
+    display: flex;       
+    flex-direction: column;    
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ccc;              
+}
+.mac_13 .processor,
+.mac_14 .processor,
+.mac_16 .processor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}    
+.processor i {
+    font-size: 50px;
+}
+.processor p {
+    font-size: 16px;
+}
+.mac_13 .cpu,
+.mac_14 .cpu,
+.mac_16 .cpu {
+    text-align: center;
+    padding-top: 40px;    
+}
+.cpu p {
+    font-size: 14px;
+    margin: 0;    
+}
+.cpu h4 {
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 8px;
+    margin: 0;    
+}
+.mac_13 .gpu,
+.mac_14 .gpu,
+.mac_16 .gpu {
+    text-align: center;
+    padding-top: 40px;    
+}
+.gpu p {
+    font-size: 14px;
+    margin: 0;    
+}
+.gpu h4 {
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 8px;
+    margin: 0;    
+}
+.mac_13 .ram,
+.mac_14 .ram,
+.mac_16 .ram {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}    
+.ram i {
+    font-size: 50px;
+}
+.ram p {
+    font-size: 16px;
+}
+.mac_13 .hd,
+.mac_14 .hd,
+.mac_16 .hd {
+    text-align: center;
+    padding-top: 40px;    
+}
+.hd p {
+    font-size: 14px;
+    margin: 0;    
+}
+.hd h4 {
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 8px;
+    margin: 0;    
+}
+.mac_13 .screen,
+.mac_14 .screen,
+.mac_16 .screen {
+    text-align: center;
+    padding-top: 40px;    
+}
+.screen p {
+    font-size: 14px;
+    margin: 0;    
+}
+.screen h4 {
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 8px;
+    margin: 0;    
+}
+.mac_13 .battery,
+.mac_14 .battery,
+.mac_16 .battery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}    
+.battery i {
+    font-size: 50px;
+}
+.battery p {
+    font-size: 16px;
+}
+.mac_13 .camera,
+.mac_14 .camera,
+.mac_16 .camera {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+}    
+.camera i {
+    font-size: 50px;
+}
+.camera p {
+    font-size: 16px;
+}
+.mac_13 .weight,
+.mac_14 .weight,
+.mac_16 .weight {
+    text-align: center;
+    padding-top: 40px;    
+}
+.weight p {
+    font-size: 14px;
+    margin: 0;    
+}
+.weight h4 {
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 8px;
+    margin: 0;    
+}
+.mac_13 .fingerprint,
+.mac_14 .fingerprint,
+.mac_16 .fingerprint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid #ccc;
+}    
+.mac_14 .fingerprint {
+    margin-top: 1px;
+}
+.fingerprint i {
+    font-size: 50px;
+}
+.fingerprint p {
+    font-size: 16px;
+}
+.container .buy_all {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;    
+}
+.accessories {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: #F2F2F2;        
+}
+.accessories .container {    
+    width: 1320px;
+}
+.accessories .accessories_title {
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+.accessories_title h2,
+.accessories_title h3 {
+    margin: 0;
+} 
+.accessories_title h2 {
+    font-size: 22px;
+    font-weight: normal;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+.accessories_title h3 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: normal;
+    padding-bottom: 20px;
+    width: 300px;
+}
+.accessories_image {      
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.business_education {
+    display: flex;
+    justify-content: center;
+}
+.business_education .container {
+    width: 1320px;
+    justify-content: space-between;
+    padding-bottom: 120px;
+}
+.business,
+.education {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+    margin: 10px;
+}
+.work .work_info {
+    position: absolute;    
+    top: 227.5px;
+    right: 107.5px;        
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.work_info h3,
+.work_info p {
+    margin: 0;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.work_info h3 {
+    font-size: 45px;    
+}
+.work_info a {    
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.work_info a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+.apple_education .education_info {
+    position: absolute;    
+    top: 227.5px;
+    right: 97.5px;        
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+.education_info h3,
+.education_info p {
+    margin: 0;
+    padding-bottom: 15px;
+    color: #fff;
+}
+.education_info h3 {
+    font-size: 45px;    
+}
+.education_info a {    
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+.education_info a:hover {
+    text-decoration: underline;
+    color: #fff;
+}
+.business .shipping,
+.education .payment {          
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;      
+}
+.shipping i,
+.payment i {
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;    
+}
+.shipping h2,
+.payment h2 {
+    font-weight: normal;
+    text-align: center;
+    margin: 0;   
+}
+.shipping p,
+.payment p {
+    font-size: 18px;
+    width: 350px;
+}
+.payment p {
+    font-size: 18px;
+    width: 200px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #f5f5f7;
+    font-size: 12px;
+    color: #6e6e73;    
+}
+footer .container {
+    width: 1100px;
+}
+footer ul li {
+    list-style-type: none;
+}
+footer ol li,
+footer ul li {
+    padding-bottom: 10px;
+}
+footer h3 {
+    font-size: 13px;
+}
+footer a {
+    text-decoration: none;
+    color: #424245;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #424245;
+}
+footer ol {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #d2d2d7;
+}
+.mac_aba {
+    padding-bottom: 20px;
+}
+.mac_aba span {   
+    padding-left: 20px;    
+}
+.mac_aba i {
+    font-size: 20px;
+}
+footer .mac_links {
+    display: flex;
+    flex: 1;
+}
+.footer_end {
+    border-bottom: 1px solid #d2d2d7;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer_end p {
+    margin: 0;
+}
+.footer_end a {
+    color: #06c;
+}
+.footer_end a:hover {
+    color: #06c;
+}
+footer .copyright {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.copyright_links a {
+    padding-right: 20px; 
+}
